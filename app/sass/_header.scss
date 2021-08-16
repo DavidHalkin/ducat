@@ -1,0 +1,20 @@
+.header{
+	svg{
+		width: 20px;
+		height: 20px;
+	}
+	.custm_h{
+		min-height: 38px;
+	}
+	img{
+		width: 30px;
+		height: 30px;
+	}
+	.btn-success{
+		background: rgba(theme-color("success"),.7);
+		border-color: rgba(theme-color("success"),.7);
+	}
+	.user_name{
+		max-width: 120px;
+	}
+}

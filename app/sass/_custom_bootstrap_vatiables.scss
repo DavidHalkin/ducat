@@ -1,0 +1,28 @@
+$theme-colors: (
+   "danger": #EB001B,
+   "primary": #0D85F3,
+   "light": rgba(0, 0, 0, 0.05),
+);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1450px
+);
+$input-focus-box-shadow: none;
+
+$btn-box-shadow: none;
+$btn-focus-box-shadow: none !important;
+
+$body-color: #000;
+$btn-border-radius: 5px;
+$input-border-radius: 5px;
+
+$link-color:#1571ae;
+$link-hover-color: $link-color;
+
+$rounded-pill: 5px;
+
+
+// $font-size-base: 1.4rem;

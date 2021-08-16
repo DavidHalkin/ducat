@@ -1,0 +1,55 @@
+body { font-family: 'Poppins', sans-serif; font-size: 14px; }
+
+.header svg { width: 20px; height: 20px; }
+
+.header .custm_h { min-height: 38px; }
+
+.header img { width: 30px; height: 30px; }
+
+.header .btn-success { background: rgba(40, 167, 69, 0.7); border-color: rgba(40, 167, 69, 0.7); }
+
+.header .user_name { max-width: 120px; }
+
+.centered { max-width: 1000px; width: 100%; margin-left: auto; margin-right: auto; }
+
+h1 { font-size: 56px; line-height: 60px; }
+
+@media (max-width: 767.98px) { h1 { font-size: 30px; line-height: 40px; } }
+
+.card_block { max-width: 640px; }
+
+@media (max-width: 991.98px) { .card_block h3 { font-size: 20px; line-height: 30px; } }
+
+@media (max-width: 991.98px) { .card_block h5 { font-size: 15px; line-height: 20px; } }
+
+.info_block { max-width: 640px; background: #f2f0eb; }
+
+.form_block { max-width: 300px; }
+
+.tabset { border-bottom: 2px solid #f2f0eb; }
+
+.tabset .nav-link { padding-left: 0 !important; padding-right: 0 !important; margin-right: 20px; color: #7a7f82; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+.tabset .nav-link.active { position: relative; color: #0f8c20; pointer-events: none; }
+
+.tabset .nav-link.active:after { height: 4px; width: 100%; content: ""; position: absolute; bottom: -2px; left: 0; background: #0f8c20; }
+
+.info_block th { font-size: 12px; line-height: 14px; color: #7a7f82; font-weight: normal; }
+
+.info_block th:first-child, .info_block td:first-child { padding-left: 0; }
+
+.info_block th:last-child, .info_block td:last-child { padding-right: 0; }
+
+.text_wrap { word-wrap: break-word; word-break: break-all; }
+
+.list-group li { min-height: 70px; padding-top: 5px; padding-bottom: 5px; min-width: 0; }
+
+.list-group span { color: #7a7f82; -webkit-box-flex: 0; -webkit-flex: 0 0 auto; -ms-flex: 0 0 auto; flex: 0 0 auto; width: auto; max-width: 100%; }
+
+.list-group em { font-style: normal; color: #22292f; -webkit-flex-basis: 0; -ms-flex-preferred-size: 0; flex-basis: 0; -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1; max-width: 100%; text-align: right; }
+
+.list-group span, .list-group em { word-wrap: break-word; }
+
+@media (max-width: 575.98px) { .list-group span, .list-group em { max-width: 100%; -webkit-box-flex: 0; -webkit-flex: 0 0 100%; -ms-flex: 0 0 100%; flex: 0 0 100%; text-align: left; } }
+
+/*# sourceMappingURL=all.css.map */
